@@ -72,17 +72,17 @@ with st.expander("Quero construir uma vida com você!!! Nosso futuro:", expanded
 
 with tab4:
     if st.button("Clique para ver nosso belos casamento:"):
-        foto_casamento = "C:/presente_namorada/imagens_personalizadas/foto_casamento.jpg"
+        foto_casamento = "imagens_personalizadas/foto_casamento.jpg"
         st.image(foto_casamento, use_container_width=True, caption="Na saúde e na Doença! 🌸")
 
 with tab5:
     if st.button("Clique para ver nossa tão sonhada casa:"):
-        foto_casa_propria = "C:/presente_namorada/imagens_personalizadas/casa_propria.jpg"
+        foto_casa_propria = "imagens_personalizadas/casa_propria.jpg"
         st.image(foto_casa_propria, use_container_width=True, caption="Casa com carinha de casa! 🌸")
 
 with tab6:
     if st.button("Clique aqui para ver nossa futura familia linda:"):
-        foto_filhos = "C:/presente_namorada/imagens_personalizadas/foto_praia.jpg"
+        foto_filhos = "imagens_personalizadas/foto_praia.jpg"
         st.image(foto_filhos, use_container_width=True, caption="Nossas combinações de genes! 🌸")
 
 st.markdown("---")
