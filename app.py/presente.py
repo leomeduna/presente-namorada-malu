@@ -89,11 +89,11 @@ st.markdown("---")
 
 
 # Lê todas as abas
-df_amor = pd.read_csv("C:/presente_namorada/data/amor_por_meses_juntos.csv")
-df_saudade = pd.read_csv("C:/presente_namorada/data/nivel_saudades_horas.csv")
-df_momentos = pd.read_csv("C:/presente_namorada/data/felicidade_em_momentos.csv")
-df_pensamentos = pd.read_csv("C:/presente_namorada/data/pensamentos_na_semana.csv")
-df_palavras = pd.read_csv("C:/presente_namorada/data/frases_mais_faladas.csv")
+df_amor = pd.read_csv("data/amor_por_meses_juntos.csv")
+df_saudade = pd.read_csv("data/nivel_saudades_horas.csv")
+df_momentos = pd.read_csv("data/felicidade_em_momentos.csv")
+df_pensamentos = pd.read_csv("data/pensamentos_na_semana.csv")
+df_palavras = pd.read_csv("data/frases_mais_faladas.csv")
 
 import matplotlib.pyplot as plt
 
