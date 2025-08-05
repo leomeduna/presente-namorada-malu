@@ -26,7 +26,7 @@ with st.expander("✨ Clique aqui para abrir seu presente ✨", expanded=True):
     with tab1:
         frases = "data/frases_romanticas.csv"
         if frases:
-            df = pd.read_excel(frases)
+            df = pd.read_csv(frases)
             frases = df['Mensagem'].dropna().tolist()
             if st.button("Clique para ver uma mensagem de amor 💗"):
                 st.success(random.choice(frases))
