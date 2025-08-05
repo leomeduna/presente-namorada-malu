@@ -88,15 +88,12 @@ with tab6:
 st.markdown("---")
 
 
-# Lê o arquivo Excel com múltiplas "abas"
-caminho_dados_malu = "data\dados_malu.xlsx"
-
 # Lê todas as abas
-df_amor = pd.read_excel(caminho_dados_malu, sheet_name="Página1")
-df_saudade = pd.read_excel(caminho_dados_malu, sheet_name="Página2")
-df_momentos = pd.read_excel(caminho_dados_malu, sheet_name="Página3")
-df_pensamentos = pd.read_excel(caminho_dados_malu, sheet_name="Página4")
-df_palavras = pd.read_excel(caminho_dados_malu, sheet_name="Página5")
+df_amor = pd.read_csv("C:/presente_namorada/data/amor_por_meses_juntos.csv")
+df_saudade = pd.read_csv("C:/presente_namorada/data/nivel_saudades_horas.csv")
+df_momentos = pd.read_csv("C:/presente_namorada/data/felicidade_em_momentos.csv")
+df_pensamentos = pd.read_csv("C:/presente_namorada/data/pensamentos_na_semana.csv")
+df_palavras = pd.read_csv("C:/presente_namorada/data/frases_mais_faladas.csv")
 
 import matplotlib.pyplot as plt
 
