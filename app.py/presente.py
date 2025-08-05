@@ -10,7 +10,7 @@ st.set_page_config(page_title="Presente de Aniversário 💝", page_icon="💖")
 st.markdown("""
 # 💖 Olá, namorada linda! Feliz Aniversário!!
             
-## Enfim, seus 18 anos!! Já está sentindo a maioridade? haha!
+## Enfim, chegou o aniversário da minha princesa? haha!
 
 Este é um presente feito com todo o carinho do mundo.  
 Cada clique guarda uma lembrança, uma emoção e um pedacinho do meu amor por você. 🌸
