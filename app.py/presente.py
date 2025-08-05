@@ -26,7 +26,7 @@ with st.expander("✨ Clique aqui para abrir seu presente ✨", expanded=True):
     with tab1:
         frases = "data/frases_romanticas.csv"
         if frases:
-            df = pd.read_csv(frases)
+            df = pd.read_excel(frases)
             frases = df['Mensagem'].dropna().tolist()
             if st.button("Clique para ver uma mensagem de amor 💗"):
                 st.success(random.choice(frases))
@@ -89,14 +89,14 @@ st.markdown("---")
 
 
 # Lê o arquivo Excel com múltiplas "abas"
-caminho_dados_malu = "C:\presente_namorada\data\dados_malu.csv"
+caminho_dados_malu = "data\dados_malu.xlsx"
 
 # Lê todas as abas
-df_amor = pd.read_csv(caminho_dados_malu, sheet_name="Página1")
-df_saudade = pd.read_csv(caminho_dados_malu, sheet_name="Página2")
-df_momentos = pd.read_csv(caminho_dados_malu, sheet_name="Página3")
-df_pensamentos = pd.read_csv(caminho_dados_malu, sheet_name="Página4")
-df_palavras = pd.read_csv(caminho_dados_malu, sheet_name="Página5")
+df_amor = pd.read_excel(caminho_dados_malu, sheet_name="Página1")
+df_saudade = pd.read_excel(caminho_dados_malu, sheet_name="Página2")
+df_momentos = pd.read_excel(caminho_dados_malu, sheet_name="Página3")
+df_pensamentos = pd.read_excel(caminho_dados_malu, sheet_name="Página4")
+df_palavras = pd.read_excel(caminho_dados_malu, sheet_name="Página5")
 
 import matplotlib.pyplot as plt
 
