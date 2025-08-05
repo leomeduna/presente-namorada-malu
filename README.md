@@ -72,6 +72,8 @@ Para que o deploy funcione corretamente:
 
     As bibliotecas necessárias devem estar listadas no requirements.txt
 
+```
+
 ## ❤️ Observações Finais
 
 Este projeto é uma mistura de amor e código.
